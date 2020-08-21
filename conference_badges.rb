@@ -3,3 +3,4 @@ def badge_maker(name)
 end
 
 names = %w(Edsger Ada Charles Alan Grace Linus Matz)
+
