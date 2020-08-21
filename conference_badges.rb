@@ -5,5 +5,5 @@ end
 names = %w(Edsger Ada Charles Alan Grace Linus Matz)
 
 def batch_badge_creator(array)
-  names.collect {|name| badge_maker(name)}
+  array.collect {|name| badge_maker(name)}
 end
